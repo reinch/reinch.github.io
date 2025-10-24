@@ -226,15 +226,4 @@
   window.addEventListener('load', navmenuScrollspy);
   document.addEventListener('scroll', navmenuScrollspy);
 
-    /**
-   * Navmenu Hide Url
-   */
-  function scrollToSection(event, id) {
-  event.preventDefault(); // Mencegah perubahan URL
-  const target = document.getElementById(id);
-  if (target) {
-    target.scrollIntoView({ behavior: 'smooth' });
-  }
-  }
-
 })();
